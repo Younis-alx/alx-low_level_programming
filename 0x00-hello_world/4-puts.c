@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* Function to print a string using puts
+* main -  Function to print a string using puts.
+* Return: 0
 */
 int main(void)
 {
