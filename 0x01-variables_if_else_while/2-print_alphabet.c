@@ -8,6 +8,6 @@ int main(void)
 {
 int i;
 for (i = 97; i < 122; i++)
-i != 122 ? putchar(i) : putchar(i);
+i < 122 ? putchar(i) : putchar('\n');
 return (0);
 }
