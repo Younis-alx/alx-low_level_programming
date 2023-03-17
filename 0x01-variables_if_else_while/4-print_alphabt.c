@@ -7,8 +7,8 @@
 int main(void)
 {
 int i;
-for (i = 97; i <= 122; i++)
-i == 113 || i == 101 ? i++ : putchar(i);
+for (i = 97; i <= 122; ++i)
+i == 113 || i == 101 ?  : putchar(i);
 putchar('\n');
 return (0);
 }
