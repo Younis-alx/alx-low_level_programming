@@ -7,7 +7,8 @@
 int main(void)
 {
 int i;
-for (i = 97; i < 123; i++)
-i < 123 ? putchar(i) : putchar('\n');
+for (i = 97; i <= 122; i++)
+putchar(i);
+putchar('\n');
 return (0);
 }
