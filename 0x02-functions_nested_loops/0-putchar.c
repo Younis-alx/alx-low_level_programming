@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * main - entry point and print _putchar
  * Return: 0 (SUC)
