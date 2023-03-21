@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _sign - checks for n range
+*print_sign - checks for n range
 * @n: number
 *
 *Description: This is a function to check n range
