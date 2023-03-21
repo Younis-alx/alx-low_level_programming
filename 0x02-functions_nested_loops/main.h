@@ -1,3 +1,4 @@
+int add(int, int);
 void times_table(void);
 int _abs(int);
 int print_sign(int n);
