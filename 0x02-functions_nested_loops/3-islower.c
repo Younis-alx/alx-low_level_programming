@@ -5,10 +5,5 @@ Return: 0 if false 1 if ture
 */
 int _islower(int c)
 {
-int isLower;
-if (_putchar(c) <= _putchar(97) && _putchar(c) >= _putchar(122))
-isLower = 1;
-else
-isLower = 0;
-return isLower;
+return (c >= 97 && c <= 122);
 }
