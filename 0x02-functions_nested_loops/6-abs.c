@@ -1,6 +1,8 @@
 #include "main.h"
 /**
 * _abs - check for the abs value
+* @n: num
+*
 * Description: function will always return abs value
 * Return: int
 */
