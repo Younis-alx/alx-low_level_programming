@@ -4,7 +4,8 @@
 * @s: string to reverse
 * Return: void
 */
-int _strlen(char *s)
+
+void print_rev(char *s)
 {
 int count, i;
 count = 0;
@@ -12,16 +13,11 @@ for (i = 0; *(s + i) != '\0'; i++)
 {
 ++count;
 }
-return (count);
-}
 
-void print_rev(char *s)
+
+for (i = count; i >= 0; i--)
 {
-int len, i;
-len = _strlen(*s);
-for (i = len; i >= 0; i--)
-{
-_putchar(s[i]);
+_putchar(*(s + i));
 }
 }
 
