@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+* puts2 - even string
+* @str: first param
+* Return: void
+*/
 
 void puts2(char *str)
 {
