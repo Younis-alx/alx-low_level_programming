@@ -19,5 +19,5 @@ for (i = count; i >= 0; i--)
 {
 _putchar(*(s + i));
 }
+_putchar('\n');
 }
-
