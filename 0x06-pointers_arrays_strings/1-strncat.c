@@ -4,6 +4,7 @@
 * _strncat - concat two string with limiter to @src
 * @dest: string to be appended upon
 * @src: string to be completed at end of dest
+* @n: limiter
 * Return: return new concat string
 */
 char *_strncat(char *dest, char *src, int n)
