@@ -11,7 +11,7 @@ char *s1, *s2;
 
 while (*haystack != '\0')
 {
-if(*haystack == *needle)
+if (*haystack == *needle)
 {
 s1 = haystack;
 s2 = needle;
@@ -26,9 +26,9 @@ s2++;
 
 }
 if (*s2 == '\0')
-return haystack;
+return (haystack);
 }
 haystack++;
 }
-return NULL;
+return (NULL);
 }
