@@ -9,7 +9,7 @@ char *_strstr(char *haystack, char *needle)
 {
 char *s1, *s2;
 
-while (*haystack != NULL)
+while (*haystack != '\0')
 {
 if(*haystack == *needle)
 {
@@ -25,7 +25,7 @@ s1++;
 s2++;
 
 }
-if (*s2 == NULL)
+if (*s2 == '\0')
 return haystack;
 }
 haystack++;
