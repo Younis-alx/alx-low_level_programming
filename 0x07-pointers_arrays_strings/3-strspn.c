@@ -13,13 +13,13 @@ for (i = 0; *(s + i); i++)
 {
 for (j = 0; *(accept + j); j++)
 {
-if (*(s + i) == *(accept + j)) 
+if (*(s + i) == *(accept + j))
 {
 ++res;
-  break;
+break;
 }
 else if (*(accept + (j + 1)) == '\0')
-  return (res);
+return (res);
 }
 }
 return (res);
