@@ -15,6 +15,8 @@ while (*(needle + j) && (*(haystack + i) == *needle))
 {
 if (haystack[i + j] == *(needle + j))
 j++;
+else
+break;
 }
 if (*(needle + j))
 {
