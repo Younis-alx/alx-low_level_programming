@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-*_sqrt_recursion - natural sqrt of num
-* @n: num
-* Return: int
+* _sqrt - square number
+* @n: first param
+* @i: second param
+* Return: sqrt
 */
 int _sqrt(int n, int i)
 {
@@ -18,6 +19,12 @@ int _sqrt(int n, int i)
 	}
 	return (_sqrt(n, i + 1));
 }
+
+/**
+*_sqrt_recursion - natural sqrt of num
+* @n: num
+* Return: int
+*/
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
