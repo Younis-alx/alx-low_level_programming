@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* slloc_grid - 2D array
+* alloc_grid - 2D array
 * @width: width of arary
 * @height: height of array
 * Return: pointer to the 2D array of int
