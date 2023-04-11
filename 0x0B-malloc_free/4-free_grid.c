@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* alloc_grid - 2D array
-* @width: width of arary
+* free_grid - free 2D array
+* @grid: grid to free
 * @height: height of array
 * Return: pointer to the 2D array of int
 */
