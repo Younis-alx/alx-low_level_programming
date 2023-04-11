@@ -19,7 +19,7 @@ while (str[i])
 ++i;
 }
 
-sub = (char *)malloc(len * sizeof(char));
+sub = (char *)malloc(len + 1 * sizeof(char));
 
 if (sub == NULL)
 return (NULL);
