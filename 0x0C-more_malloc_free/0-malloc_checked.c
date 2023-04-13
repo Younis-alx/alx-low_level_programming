@@ -12,7 +12,7 @@ void *Pblock;
 Pblock = malloc(b);
 
 if (Pblock == NULL)
-return (98);
+exit (98);
 
 return (Pblock);
 }
