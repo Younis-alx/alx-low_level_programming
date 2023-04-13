@@ -35,7 +35,7 @@ Pblock[i] = s1[i];
 for (j = 0; j < n && s2[j]; j++)
 Pblock[j + i] = s2[j];
 
-Pblock[j + i + 1] = '\0';
+Pblock[j + i] = '\0';
 
 return (Pblock);
 }
