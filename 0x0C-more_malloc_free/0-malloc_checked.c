@@ -2,6 +2,7 @@
 /**
 * malloc_checked - function that allocates memory
 * @b: bytes of memory
+* Return: void
 */
 void *malloc_checked(unsigned int b)
 {
