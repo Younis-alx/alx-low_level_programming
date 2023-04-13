@@ -8,7 +8,7 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int size, i, j;
+unsigned int size, i, j;
 char *Pblock;
 
 size = n;
