@@ -12,7 +12,8 @@ return;
 
 if (d->name == NULL)
 printf("Name: (nil)\n");
-else printf("Name: %s\n", d->name);
+else
+printf("Name: %s\n", d->name);
 
 if (d->age <= 0)
 printf("nil\n");
