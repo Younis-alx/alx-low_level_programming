@@ -15,7 +15,10 @@ printf("Name: (nil)\n");
 else
 printf("Name: %s\n", d->name);
 
+if (d->age != NULL)
 printf("Age: %.6f\n", d->age);
+else
+printf("(nil)");
 
 if (d->owner == NULL)
 printf("(nil)\n");
