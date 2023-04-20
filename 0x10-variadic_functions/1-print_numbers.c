@@ -15,8 +15,12 @@ separator = "";
 va_start(charPtr, n);
 
 for (i = 0; i < n; i++)
-i == n - 1 ? printf("%d ", va_arg(charPtr, int)) :
-printf("%d%c ", va_arg(charPtr, int), *separator);
+{
+printf("%d", va_arg(charPtr, int));
+if (i < n - 1)
+printf("%s", separator);
+}
+
 printf("\n");
 va_end(charPtr);
 
