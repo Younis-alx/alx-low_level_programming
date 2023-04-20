@@ -10,7 +10,7 @@ unsigned int i;
 va_list charPtr;
 
 if (separator == NULL)
-return;
+separator = "";
 
 va_start(charPtr, n);
 
