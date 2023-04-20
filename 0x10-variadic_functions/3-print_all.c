@@ -9,13 +9,10 @@ int i;
 int isComma;
 char *str;
 va_list formatPtr;
-
 va_start(formatPtr, format);
 i = 0;
-
 while (format != NULL && format[i] != '\0')
 {
-
 switch (format[i])
 {
 case 'c':
