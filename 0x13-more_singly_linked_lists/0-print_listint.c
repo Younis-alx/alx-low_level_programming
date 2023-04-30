@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
 * print_listint - prints all the elements in listint_t
 *@h: head node
