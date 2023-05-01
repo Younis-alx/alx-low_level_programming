@@ -7,17 +7,15 @@
 */
 unsigned int len(listint_t *h)
 {
-	unsigned int i = 0;
+        unsigned int i = 0;
 
-	while (h)
-	{
-		++i;
-		h = h->next;
-	}
-	return (i);
+        while (h)
+        {
+                ++i;
+                h = h->next;
+        }
+        return (i);
 }
-
-
 /**
 *get_nodeint_at_index - nth of node listint_t
 * @head: ptr head struct
