@@ -7,14 +7,14 @@
 */
 unsigned int len(listint_t *h)
 {
-        unsigned int i = 0;
+	unsigned int i = 0;
 
-        while (h)
-        {
-                ++i;
-                h = h->next;
-        }
-        return (i);
+	while (h)
+	{
+	++i;
+	h = h->next;
+	}
+	return (i);
 }
 
 
@@ -22,6 +22,7 @@ unsigned int len(listint_t *h)
 /**
 *delete_nodeint_at_index - deletes the nodes at (idx) of a listint_t
 *@head: ptr to struct
+*@index: index of postion to del
 *Return: 1 if (SUCCESS), -1 (FAIL)
 */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
