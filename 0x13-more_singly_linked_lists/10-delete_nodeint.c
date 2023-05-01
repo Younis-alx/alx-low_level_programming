@@ -31,7 +31,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	listint_t *tmp, *del_node;
 	unsigned int i = 0;
 
-	if (!*head || index > list_len(*head))
+	if (!*head || index > len(*head))
 		return (-1);
 
 	tmp = *head;
