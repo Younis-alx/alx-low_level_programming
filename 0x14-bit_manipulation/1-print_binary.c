@@ -7,5 +7,5 @@ void print_binary(unsigned long int n)
 {
 	if (n && n >> 1)/* until n == 00000000 */
 		print_binary(n >> 1);
-	_putchar((n & 1) - '0');
+	_putchar((n & 1) + '0');
 }
