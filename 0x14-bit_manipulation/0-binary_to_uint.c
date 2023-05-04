@@ -1,5 +1,20 @@
 #include "main.h"
+/**
+* len - string len
+* @s: string to count
+* Return: count
+*/
+int len(const char *s)
+{
+	int count = 0, i = 0;
 
+	while (s[i])
+	{
+		count++;
+		i++;
+	}
+		return (count);
+}
 /**
 * binary_to_uint - converts a binary number to uint
 * @b: bin num
