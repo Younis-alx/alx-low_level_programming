@@ -26,7 +26,7 @@ unsigned int binary_to_uint(const char *b)
 	int max_idx = 0, multi = 1;
 	unsigned int res = 0;
 
-	if(!b)
+	if (!b)
 		return (0);
 
 	max_idx = len(b) - 1;
