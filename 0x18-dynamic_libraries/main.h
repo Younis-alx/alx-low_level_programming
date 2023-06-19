@@ -3,10 +3,10 @@
 #define EXIT_SUCCESS 0
 #include <stddef.h>
 
-int mod(int a , int b);
+int mod(int a, int b);
 int div(int a, int b);
 int mul(int a, int b);
-int sub(int a , int b);
+int sub(int a, int b);
 int add(int a, int b);
 int _putchar(char c);
 int _islower(int c);
